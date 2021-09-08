@@ -1,0 +1,14 @@
+.Playlist__container{
+    
+    width: 180px;
+    height: 180px;
+    margin-right: 25px;
+
+}
+
+.Playlist__img{
+
+    height: 100%;
+    width: 100%;
+
+}

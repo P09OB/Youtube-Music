@@ -1,0 +1,21 @@
+.Artist__container{
+    width: 180px;
+    height: 180px;
+    margin-right: 25px;
+    
+}
+
+.Artist__img{
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.Artist__text{
+
+    text-align: center;
+}
+
+.Artist_sus{
+    color: darkgray;
+}

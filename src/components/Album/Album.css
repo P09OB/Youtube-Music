@@ -1,0 +1,27 @@
+.Album_img{
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.Album_contenedor{
+    width: 180px;
+    height: 180px;
+    margin-right: 25px;
+
+}
+
+.Album_name{
+    text-decoration: none;
+} 
+
+.Album_name:hover{
+    text-decoration: underline;
+}
+
+.Album__text{
+    color: darkgray;
+
+}

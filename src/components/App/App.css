@@ -2,6 +2,7 @@
 
 *{
   color: white;
+  margin: 0%;
 }
 body {
   background-color: black;
@@ -32,13 +33,41 @@ body {
      background: #9e5bbd;
 }
 
+.App_fav{
+  height: 330px;
+}
 .App_title{
 
-  margin-right: 52px;
-  margin-left: 52px;
+  margin-left: 56px;
+  padding-left: 40px;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
     font-weight: 700;
 
+}
+
+
+.App_container{
+  display: flex;
+  margin-left: 56px;
+  margin-right: 56px;
+
+  box-sizing: border-box;
+  
+}
+
+.App_imgArtist{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.App_similar{
+
+  display: flex;
+  margin-left: 56px;
+  padding-left: 40px;
+
+  align-items: center;
 
 }
