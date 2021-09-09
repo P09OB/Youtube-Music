@@ -3,7 +3,6 @@
     width: 180px;
     height: 180px;
     margin-right: 25px;
-
 }
 
 .Playlist__img{
@@ -11,4 +10,22 @@
     height: 100%;
     width: 100%;
 
+}
+
+.Playlist__link{
+    text-decoration: none;
+}
+
+.Playlist__text:hover{
+
+    text-decoration: underline;
+
+}
+.Playlist__text{
+    padding-top: 10px;
+}
+
+.Playlist__text--songs{
+    color: gray;
+    margin-top: 5px;
 }

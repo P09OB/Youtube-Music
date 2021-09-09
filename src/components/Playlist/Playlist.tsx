@@ -1,22 +1,23 @@
 import React from "react";
 import './Playlist.css';
 
-interface PlaylistProps{
+interface PlaylistProps {
 
-    name:string;
-    songs:string;
-    img:string;
-    url:string;
+    name: string;
+    songs: string;
+    img: string;
+    url: string;
 }
 
-export const Playlist: React.FC<PlaylistProps> = (props)=>{
+export const Playlist: React.FC<PlaylistProps> = (props) => {
 
-    return <a className='Playlist__container' href={props.url}>
-        <img src={props.img} className='Playlist__img'></img>
-        <p>{props.name}</p>
-        <p>{props.songs}</p>
-
-    </a>
+    return <div className='Playlist__container'>
+        <a className='Playlist__link' href={props.url}>         
+            <img src={props.img} className='Playlist__img'></img>
+            <p className='Playlist__text'>{props.name}</p>
+        </a>
+            <p className='Playlist__text--songs'>{props.songs}</p>
+    </div>
 
 
 }

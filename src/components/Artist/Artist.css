@@ -14,8 +14,19 @@
 .Artist__text{
 
     text-align: center;
+    margin-top: 15px;
 }
 
-.Artist_sus{
-    color: darkgray;
+.Artist__text--sub{
+    color: gray;
+    margin-top: 5px;
+}
+
+.Artist__text--name{
+    text-decoration: none;
+}
+
+.Artist__text--name:hover{
+    text-decoration: underline;
+
 }
