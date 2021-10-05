@@ -1,9 +1,22 @@
 import React from 'react';
 import './App.css';
 import { Link } from '../Link/Link';
-import { Album } from '../Album/Album';
+import Album, {AlbumProps} from '../Album/Album';
 import { Artist } from '../Artist/Artist';
 import { Playlist } from '../Playlist/Playlist';
+
+
+type AlbumElemObj = AlbumProps & {
+
+  id:number;
+}
+
+const albumElems: AlbumElemObj [] = [
+
+
+
+
+]
 
 function App() {
   return (

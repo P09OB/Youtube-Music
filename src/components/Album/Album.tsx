@@ -1,7 +1,7 @@
 import React from "react";
 import './Album.css'
 
-interface AlbumProps{
+export interface AlbumProps{
 
     name:string;
     single:string;
@@ -12,7 +12,7 @@ interface AlbumProps{
 
 }
 
-export const Album: React.FC<AlbumProps> =(props)=>{
+ const Album: React.FC<AlbumProps> =(props)=>{
 
     let className = 'Album_e--none';
     if(props.icono){
@@ -30,3 +30,5 @@ export const Album: React.FC<AlbumProps> =(props)=>{
         
   </div>;
 }
+
+export default Album;
